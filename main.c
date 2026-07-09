@@ -103,7 +103,7 @@ void addStudent()
     printf("Enter Age:");
     scanf("%d", &s.Age);
     printf("Enter Gender:");
-    scanf(" %c", s.Gender);
+    scanf(" %c", &s.Gender);
     printf("Enter Department:");
     scanf("%s", s.Department);
     printf("Enter Marks:");
